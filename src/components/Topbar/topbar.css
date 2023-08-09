@@ -1,0 +1,50 @@
+.mainContainer.topbar {
+  background: var(--primary-color);
+}
+
+.innerContainer.innerTopbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+
+.TopbarLogo {
+  margin-right: 20px;
+}
+
+.TopbarLogo h2 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 0px;
+  font-weight: 400;
+}
+
+.TopbarNavItems {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.NavBarLinks {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navBarLink {
+  position: relative;
+  margin: 0px 20px;
+}
+
+.navBarLink a {
+  text-decoration: none;
+}
+
+.navBarLink a li {
+  list-style: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 300;
+}

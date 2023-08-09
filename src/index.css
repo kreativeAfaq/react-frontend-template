@@ -1,13 +1,34 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Readex Pro", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* -------------------------------- CSS VARIABLES ------------------------------------ */
+
+:root {
+  /* COLORS -------------------------------------------------------------------------- */
+
+  --primary-color: #00715e;
+  --secondary-color: #e5712d;
+  --medium-gray: #98a09d;
+
+  /* OTHERS --------------------------------------------------------------------------- */
+  --max-width: 1400px;
+  --width: 90%;
+}
+
+/* -------------------------------- GLOBAL CLASSES ------------------------------------ */
+
+.mainContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.innerContainer {
+  width: var(--width);
+  max-width: var(--max-width);
 }
